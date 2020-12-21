@@ -1,1 +1,8 @@
 .vscode
+Classifier/ckiptagger
+Classifier/cache_dir
+Classifier/.ipynb_checkpoints
+Classifier/model_src
+Classifier/standpoint_model
+Classifier/runs
+Classifier/data
