@@ -68,7 +68,6 @@ class TriFn_tokenizer:
         return self.ws(X)
 
 
-
 if __name__ == '__main__':
 
     tokenizer = TriFn_tokenizer()
@@ -89,5 +88,3 @@ if __name__ == '__main__':
 
     df2json(real_news_df, './data/real_news_token_data.json')
     df2json(fake_news_df, './data/fake_news_token_data.json')
-
-    

@@ -6,3 +6,10 @@ Classifier/model_src
 Classifier/standpoint_model
 Classifier/runs
 Classifier/data
+data
+runs
+model
+**/**/*.log
+Classifier/utils/__pycache__/
+Classifier/__pycache__
+Classifier/vectors

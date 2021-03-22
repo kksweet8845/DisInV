@@ -1,0 +1,13 @@
+iframe {
+    border: none;
+    width: 500px;
+    height :600px;
+}
+  
+iframe:focus {
+    outline: none;
+}
+  
+iframe[seamless] {
+    display: block;
+}

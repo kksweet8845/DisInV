@@ -1,0 +1,109 @@
+/* div {
+    border-color: green;
+    border-width: thick;
+    border-style: solid;
+} */
+
+
+#sednBtn {
+    
+}
+
+.main {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    /* background-image: url("../img/img1.jpg"); */
+    background-image: url(https://images.pexels.com/photos/5168/black-and-white-coffee-cup-apple.jpg?w=940&h=650&auto=compress&cs=tinysrgb);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: auto;
+}
+
+.main > .center {
+    margin: auto;
+    width: 70%;
+    height: 60%;
+    min-height: 250px;
+    padding: 1em;
+    background-image: linear-gradient( 135deg, rgba(249, 119, 148, 0.7) 10%, rgba(98, 58, 162, 0.7) 100%);
+    border-radius: 5px;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main > .center > .title, .main > .center > .desc{
+    text-align: center;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1em;
+}
+
+.main > .center > .title {
+    font-size: 10vmin;
+    padding-bottom: 0;
+}
+
+.main > .center > .desc {
+    font-size: 3vmin;
+    padding-bottom: 1em;
+}
+
+.menu {
+    height: 80px;
+    background-color: rgba(238, 238, 238, 0.9);
+    display: flex;
+}
+
+.menu > .mycontainer {
+    margin: auto;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    @media screen and (min-width: 600px) {
+        position: fixed;
+        width: 80%;
+    }
+}
+
+.service {
+    padding: 1em;
+    display: block;
+    text-align: center;
+    background-image: linear-gradient(135deg, rgb(255, 255, 255) 10%, rgb(255, 255, 255) 100%);
+}
+
+.service h3 {
+    margin: 3em;
+    color: #623aa2;
+    @media screen and (max-width: 440px) {
+        margin-top: 1.8em;
+        margin-bottom: 1em;
+    }
+}
+
+.service p {
+    margin: 2em;
+    color: #777;
+    @media screen and (max-width: 440px) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
